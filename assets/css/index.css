@@ -1,0 +1,52 @@
+.hero-section {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.hero-section p{
+    width: 50rem;
+    font-size: 2.5rem;
+}
+
+.part-gauche {
+    color: black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 6rem;
+    margin-left: 8rem;
+}
+
+.part-gauche .btn{
+    margin-left: 12rem;
+}
+
+
+.imgsec{
+    background-image: url("https://static.actu.fr/uploads/2022/07/62dcdb9579d2646dcdb9579d21adcdv-960x640.jpg");
+    width: 52rem;
+    height: 52rem;
+    background-position: center;
+    background-size:150%;
+    background-repeat: no-repeat;
+    border-radius: 0px 2rem 0px 20rem;
+    border:1.5px solid black;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.propos{
+    background-color: #fedfee !important;
+    width: 100%;
+    border-radius: 5rem;
+    border-top-right-radius:0 ;
+    border: 1.5px solid black;
+    border-left:0;
+    border-right:0;
+}

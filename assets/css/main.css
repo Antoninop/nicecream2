@@ -1,0 +1,106 @@
+html{
+    font-size: 12px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+/* Debut navbar */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3rem;
+    border: 1px solid black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li:first-child a,
+.nav li:nth-child(2) a {
+    margin-right: 15rem;
+}
+
+.nav li:nth-last-child(2) a,
+.nav li:last-child a {
+    margin-left: 15rem;
+}
+
+.nav a:hover{
+    color: red;
+}
+
+
+.logo{
+    width: 12rem;
+    height: auto;
+    transform: rotate(30deg);
+}
+
+/* fin navbar */
+
+/* debut page principale */
+
+main {
+    background-color:#fdf7f2; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem;
+    margin-top: 5rem;
+    border: 1.5px solid black;
+    border-radius: 1rem;
+}
+
+/* fin page principale */
+
+
+.btn {
+    display: flex;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: .2em 1.2em .3em 1.2em;
+    text-decoration: none;
+    margin-top: 2rem;
+    background-color: transparent;
+    border-radius: 4rem;
+    width: 15rem;
+    height: 5rem;
+    border: 0.2rem solid black;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+
+@media screen and (min-width: 1200px) {
+   html{
+    font-size: 9.5px;
+   }
+  }
